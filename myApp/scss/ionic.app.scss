@@ -20,4 +20,19 @@ $ionicons-font-path: "../lib/ionic/fonts" !default;
 
 // Include all of Ionic
 @import "www/lib/ionic/scss/ionic";
-
+.circleWrapper {
+	background: #886aea;
+	padding-top: 130px;
+	padding-bottom: 60px;
+}
+.circle {
+	margin: 0 auto;
+	border-radius: 50%;
+	height: 60vw;
+	width: 60vw;
+	line-height: 50vw;
+	border: 20px solid #f8f8f8;
+	text-align: center;
+	font-size: 10em;
+	color: #fff;
+}
