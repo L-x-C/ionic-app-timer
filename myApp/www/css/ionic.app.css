@@ -7689,7 +7689,8 @@ a.button {
   border: 20px solid #f8f8f8;
   text-align: center;
   font-size: 10em;
-  color: #fff; }
+  color: #fff;
+  padding-left: 2%; }
 
 .lxc-bottom {
   position: absolute;
