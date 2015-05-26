@@ -35,4 +35,16 @@ $ionicons-font-path: "../lib/ionic/fonts" !default;
 	text-align: center;
 	font-size: 10em;
 	color: #fff;
+	padding-left: 2%;
+}
+.lxc-bottom {
+	position: absolute;
+	bottom: 0;
+	overflow: hidden;
+	width: 100%;
+}
+.button {
+	&.lxc-button {
+		margin-bottom: 0;
+	}
 }
