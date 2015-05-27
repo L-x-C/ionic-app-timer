@@ -27,7 +27,8 @@
 		<div class="circle">{{data.time}}</div>
 	</div>
 	<div class="lxc-bottom">
-		<button class="button button-block button-royal lxc-button" ng-click="startTimer()">Start</button>
+		<button ng-if="start" class="button button-block button-royal lxc-button" ng-click="startTimer()">Start</button>
+		<button ng-if="!start" class="button button-block button-assertive lxc-button" ng-click="stopTimer()">Stop</button>
 	</div>
 	<script id="modal.html" type="text/ng-template">
 		<div class="modal">

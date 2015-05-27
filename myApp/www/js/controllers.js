@@ -13,6 +13,8 @@ angular.module('starter.controllers', [])
 			time: 5
 		};
 
+		$scope.start = true;
+
 		$scope.openModal = function() {
 			$scope.modal.show();
 		};
@@ -45,12 +47,19 @@ angular.module('starter.controllers', [])
 				}
 			};
 
-			$interval(function() {
+			$scope.start = false;
+
+			timer = $interval(function() {
 				if (flag) {
 					firstRoundFn();
 				} else {
 					secondRoundFn();
 				}
 			}, 1000);
+		};
+
+		$scope.stopTimer = function() {
+			$interval.cancel(timer);
+			$scope.start = true;
 		}
 	});
