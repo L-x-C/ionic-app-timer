@@ -5,7 +5,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
 	<title></title>
-    <!-- compiled css output -->
+	<!-- compiled css output -->
 	<link href="css/ionic.app.css" rel="stylesheet">
 	<!-- ionic/angularjs 	js -->
 	<script src="lib/ionic/js/ionic.bundle.js"></script>
@@ -20,21 +20,15 @@
 
 <body ng-app="starter" ng-controller="ToDoListCtrl">
 	<div class="bar bar-header bar-royal">
-	  <h1 class="title">Spuer Timer</h1>
-	  <button class="button button-icon icon ion-gear-a" ng-click="openModal()"></button>
+		<h1 class="title">Spuer Timer</h1>
+		<button class="button button-icon icon ion-gear-a" ng-click="openModal()"></button>
 	</div>
 	<div class="has-header circleWrapper">
-		<div class="circle">{{data.time}}</div>	
+		<div class="circle">{{data.time}}</div>
 	</div>
 	<div class="lxc-bottom">
-	  <button class="button button-block button-royal lxc-button" ng-click="startTimer()">Start</button>
-
+		<button class="button button-block button-royal lxc-button" ng-click="startTimer()">Start</button>
 	</div>
-
-
-		
-
-
 	<script id="modal.html" type="text/ng-template">
 		<div class="modal">
 			<div class="bar bar-header bar-balanced">
@@ -44,22 +38,20 @@
 			<div class="content has-header padding">
 				<div class="list">
 					<div class="item item-divider">
-					    First Round {{data.firstRound}}s
+						First Round {{data.firstRound}}s
 					</div>
 					<div class="item range range-positive">
-					    <input type="range" name="volume" min="0" max="99" value="30" ng-model="data.firstRound">
+						<input type="range" name="volume" min="0" max="99" value="30" ng-model="data.firstRound">
 					</div>
-					
 					<div class="item item-divider">
-					    Second Round {{data.secondRound}}s
+						Second Round {{data.secondRound}}s
 					</div>
 					<div class="item range range-positive">
-					    <input type="range" name="volume" min="0" max="99" value="30" ng-model="data.secondRound">
+						<input type="range" name="volume" min="0" max="99" value="30" ng-model="data.secondRound">
 					</div>
 				</div>
 			</div>
 		</div>
-
 	</script>
 </body>
 
