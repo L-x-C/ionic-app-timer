@@ -8,3 +8,7 @@ $ ionic platform add android
 $ ionic build android
 $ ionic emulate android
 ```
+
+![image](https://github.com/L-x-C/infinite-cycle-timer/blob/master/a.png)
+![image](https://github.com/L-x-C/infinite-cycle-timer/blob/master/b.png)
+![image](https://github.com/L-x-C/infinite-cycle-timer/blob/master/c.png)
